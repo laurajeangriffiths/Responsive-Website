@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cake Expectations - Pricing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+</head>
+
+<body>
+	<div class="main-nav">
+		<ul class="nav">
+			<div id="logo">Cake Expectations</div>
+			<div class="Navbar__Link Navbar__Link-toggle">
+				<i class="fas fa-bars"></i>
+    		</div>
+    		<nav class="navbar-items">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="pricing.html">Pricing</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</nav>
+			<div class="social-links">
+				<div class="nav-right">
+					<a><i class="fab fa-facebook-square"></i></a>
+				</div>
+				<div class="nav-right">
+					<a><i class="fab fa-twitter-square"></i></a>
+				</div>
+				<div class="nav-right">
+					<a><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</ul>
+	</div>
+
+	<div class="container-pricing">
+		<h1>How much will my cake cost?</h1>
+		<br/>
+		<p>That depends on how elaborate your idea is! Occassion cakes can be very detailed, resulting in lots of time and TLC! This is something we can discuss in detail, but to get an idea of the price of your <em>dream cake</em>, use our estimator tool below.</p>
+
+		<p>Enter the desired amount of layers for your cake, as well as the amount of characters needed for the delicious chocolate cake topper!</p>
+	</div>
+
+			<fieldset id="calculator">
+				<legend>Cake Estimator</legend>
+			<p>How many layers do you require?</p>
+			<input type="text" id="layers" name="layers" placeholder="Number of layers">
+			<p>How many cake topper characters do you require?</p>
+			<input type="text" id="topper" name="topper" placeholder="Number of toppers">
+			<br>
+			<button id="calcBtn" onclick="costCalc()">Calculate</button>
+			<p id="estimateResult">Use the estimate calculator to get an estimate!</p>
+			</fieldset>
+	
+	<p class="footer">Designed by Laura Griffiths <br> © Copyright 2018</p>
+
+	<script type="text/javascript" src="cake.js"></script>
+</body>
+</html>

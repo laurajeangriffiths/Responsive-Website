@@ -1,0 +1,272 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Playfair Display', serif;
+	background-color: #ffe6ff;
+	text-align: center;
+}
+
+.main-nav {
+  color: #b3b3b3;
+  width: 100%;
+  background: #ffffff;
+  min-height: 50px;
+  padding: 10px;
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav li {
+ font-family: 'Playfair Display', serif;
+ font-size: 20px;
+ display: flex;
+ float: left;
+ margin-right: 10px;
+ padding: 10px 10px 10px 10px;
+}
+
+.nav-right {
+  position: right;
+  padding: 0px 10px;
+  margin: auto 0px;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav a {
+  transition: all .5s;
+  color: gray;
+}
+
+.nav a:hover {
+  color: #ffccef;
+}
+
+.nav-right {
+  font-size: 25px;
+}
+
+.social-links {
+  margin-left: auto;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+	text-align: center;
+	height: 400px;
+	background: url("https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9699a304159246af55ed7002f6ef7f8a&auto=format&fit=crop&w=1500&q=80") no-repeat center center;
+	background-size: cover;
+	padding-top: 60px;
+	line-height: 1.5;
+}
+
+#head-logo {
+	background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 260px auto 0px auto;
+}
+
+#head-p {
+	background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto 0px auto;
+}
+
+.col-image, #about-image {
+	border-radius: 10px;
+	border-right: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+}
+
+.col-image:hover {
+  border-color: pink;
+}
+
+#about-image{
+  padding-left: 20px;
+}
+
+#about-image:hover {
+  border-color: pink;
+  transform: scale(1) rotate(1deg);
+  padding-bottom: 20px;
+}
+
+#logo {
+	color: #ff80ff;
+  font-size: 22px;
+  padding: 9px 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: center;
+  min-width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0px auto;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.column-1 {
+  padding: 10px 0px;
+	width: 33.3%;
+	float: left;
+	margin: 30px auto;
+}
+
+.column-2 {
+  padding: 10px 0px;
+  width: 33.3%;
+  float: left;
+  margin: 30px auto;
+}
+
+.column-3 {
+  padding: 10px 0px;
+  width: 33.3%;
+  float: left;
+  margin: 30px auto;
+}
+
+.rainbow-cake {
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid pink;
+  transition: all .5s;
+}
+
+.rainbow-cake:hover {
+	transform: scale(1.2) rotate(360deg);
+}
+
+#about {
+  margin-top: 0px;
+  padding-top: 100px;
+}
+
+.container-about {
+  max-width: 80%;
+  margin: auto;
+}
+
+.container-about {
+  text-align: left;
+}
+
+.container-gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 85%;
+  max-height: 100%;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+div.gallery {
+    margin: 10px 15px 10px 15px;
+    border: 1px solid #ccc;
+    width: 300px;
+    display: block;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.social a {
+  color: gray;
+  font-size: 35px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.social a:hover{
+  color: #ffccef;
+}
+h3 a, p a {
+ color: gray;
+}
+h3 a:hover {
+  color: #ffccef;
+}
+.container-pricing {
+  padding-top: 100px;
+  max-width: 65%;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+#calculator {
+  width: 45%;
+  margin: 30px auto 30px auto;
+}
+#gallery-title{
+  padding-top: 80px;
+  max-width: 85%;
+  margin: 0px auto;
+}
+#gallery-foot{
+  max-width: 85%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0px auto;
+  text-align: center;
+}
+form{
+  width: 100%;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+}
+.contact-form{
+  width: 100%;
+}
+#contact-field{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#calcBtn{
+  margin-top: 20px;
+}
+.social-pages{
+  margin: 0px auto;
+}
+.footer{
+  margin-top: 20px;
+  color: gray;
+}

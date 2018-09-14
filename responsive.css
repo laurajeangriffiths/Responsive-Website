@@ -1,0 +1,138 @@
+@media screen and (max-width: 480px) {
+	body {
+		max-width: 100%;
+	}
+	.nav {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.nav > li {
+		display: none;
+		flex-direction: column;
+		
+	}
+	.navbar-items {
+		display: none;
+		flex-direction: column;
+	}
+	.Navbar__Link {
+		padding-top: 12px;
+		padding-right: 45px;
+	}
+	.Navbar__ToggleShow {
+		display: flex;
+	}
+	.Navbar__Link-toggle {
+		align-self: flex-end;
+		display: initial;
+		position: absolute;
+		cursor: pointer;
+	}
+	.nav-right {
+		display: none;
+	}
+	header.background {
+		width: 100%;
+	}
+	.container{
+		max-width: 90%;
+		justify-content: center;
+	}
+	.container-about{
+		justify-content: center;
+	}
+	h1{
+		text-align: center;
+	}
+	.column-1, .column-2, .column-3 {
+		width: 100%;
+		margin: 0px, auto, 0px, auto;
+	}
+	#about-image {
+		margin-bottom: 15px;
+	}
+	.container-pricing{
+		width: 100%;
+	}
+	#calculator{
+		width: 80%;
+		margin-bottom: 20px;
+	}
+	form{
+		max-width: 100%;
+		margin: 0px auto;
+	}
+	fieldset{
+		display: block;
+		max-width: 100%;
+	}
+	.rainbow-cake{
+		justify-content: center;
+	}
+	.contact-form{
+		justify-content: center;
+		max-width: 40%;
+	}
+	.container-contact{
+		max-width: 80%;
+		margin: 0px auto;
+	}
+	.social-links{
+		max-width: 90%;
+		text-align: center;
+		justify-content: center;
+		margin: 0px auto;
+	}
+}
+
+@media screen and (min-width: 481px),
+       screen and (max-width: 920px){
+	body{
+		max-width: 100%;
+	}
+	.container{
+		max-width: 90%;
+		justify-content: center;
+		margin: 0px auto;
+	}
+    .column-1, .column-2, .column-3 {
+		display: flex;
+		flex-direction: column;
+		width: 300px;
+		margin: 10px 40px;
+	}
+	.social-links{
+		display: none;
+	}
+} 
+
+@media screen and (max-width: 695px){
+	.nav {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.nav > li {
+		display: none;
+		flex-direction: column;
+		
+	}
+	.navbar-items {
+		display: none;
+		flex-direction: column;
+	}
+	.Navbar__Link {
+		padding-top: 12px;
+		padding-right: 45px;
+	}
+	.Navbar__ToggleShow {
+		display: flex;
+	}
+	.Navbar__Link-toggle {
+		align-self: flex-end;
+		display: initial;
+		position: absolute;
+		cursor: pointer;
+	} 
+}   
